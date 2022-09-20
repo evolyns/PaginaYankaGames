@@ -748,9 +748,9 @@ z-index: 1;
   width: 150px;
   height: 150px;
 }
-.pie__bloque{
+/* .pie__bloque{ */
 
-}
+/* } */
 .lista__footer {
   width: 100%;
   display: inline-flex;
@@ -783,16 +783,16 @@ z-index: 1;
   flex: 1 1 auto;
   
 }
-#footer3{
+/* #footer3{ */
   /* flex: 0 1 auto; */
-}
-#footer4{
+/* } */
+/* #footer4{ */
   /* flex: 0 1 auto; */
-}
-#footer5{
+/* } */
+/* #footer5{ */
   /* flex: 0 1 auto; */
   
-}
+/* } */
 /* #pie__imagen {
   background-repeat: repeat-x;
   background-origin: content-box;
