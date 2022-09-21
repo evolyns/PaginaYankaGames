@@ -812,6 +812,6 @@ z-index: 1;
 /* aca estan las tipografias */
 @font-face {
   font-family: "asd";
-  src: url(/font/kiwi_days/Kiwi\ Days.ttf);
+  src: url(font/kiwi_days/Kiwi\ Days.ttf);
   font-style: normal;
 }
