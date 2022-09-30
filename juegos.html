@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>yanka games</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="imagenes_inicio/favicon.png" />
   </head>
   <body class="fondo__bloque">
@@ -59,101 +61,75 @@
                           amigos</option>
                          </select>
                      </label> -->
-                   </div>
-                   <a class="lista__textos" href="contacto.html"><li>contacto</li></a>
-                   <a class="lista__textos" href="equipo.html"><li>equipo</li></a>
-                   <!-- las listas tienen que estar a la derecha arriba de todo dejando 5 x x aprox    -->
+                    </div>
+                    <a class="lista__textos" href="contacto.html"><li>contacto</li></a>
+                    <a class="lista__textos" href="equipo.html"><li>equipo</li></a>
+                    <!-- las listas tienen que estar a la derecha arriba de todo dejando 5 x x aprox    -->
                  </ul>
                </div>
              </nav>
              </header>
+             
+             <div id="juegos__bloque" class="juegos__bloque__runner">  
+    <div class="container">
+<div class="row">
     <!-- el bloque de un juego -->
-    <div class="juegos__bloque" id="juegos__bloque__runner">  
-    <!-- nombre del juego -->
-        <div class="juegos__bloque__titulo">
-        <h2 class="juegos__titulo" >
-            Tres acordes runner
-        </h2>
-      </div>
-      <!-- Descripcion del juego -->
-      <div class="juegos__bloque__texto" >
-        <p>
-          Novedades!
-          3 Personajes nuevos "Berna, Diego y Pablo".
-          2 Power ups nuevos:
-          El porrin te genera un escudo que te hace inmune x 5 segundos.
-          El café te genera un aura que te da mas velocidad.
-        </p>
-      </div>
-      <div class="juegos__subtitulo" >
-        <h3>#Construct 3</h3>
-      </div>
-    <div class="juegos__icono__playstore" >
-      <img id="juegos__bloque__icono__juego" src="imagenes_inicio/256.png" width="196px" height="196px" alt="">
-      <!-- <a href="https://play.google.com/store/apps/details?id=com.yanka_games.tres_acordes_runner"><img class="juegos__bloque__icono__playstore" src="/imagenes_inicio/playstore.png" width="64px" height="64px" alt=""> -->
-      </a> 
-      
-    </div>
-  <div class="juegos__bloque__portada" >
-   <img class="juegos__portada" src="imagenes_inicio/Imagen 2 rekortada.jpg " width="295" height="159"  alt=""  >
-  </div>  
+    <div class="col-4" id="juegos__icono__playstore" >
+  <img id="juegos__bloque__icono__juego" src="imagenes_inicio/256.png" width="196px" height="196px" alt="">
+  <!-- <a href="https://play.google.com/store/apps/details?id=com.yanka_games.tres_acordes_runner"><img class="juegos__bloque__icono__playstore" src="/imagenes_inicio/playstore.png" width="64px" height="64px" alt=""> -->
+  </a> 
+  
   </div>
+    <!-- nombre del juego -->
+    <div  class="col-6" id="juegos__bloque__titulo">
+      <h2  id="juegos__titulo" >
+        Tres acordes runner
+          </h2>
+        </div>
+        <!-- Descripcion del juego -->
+        <div class="col-2" id="juegos__bloque__texto" >
+          <p>
+            Novedades!
+            3 Personajes nuevos "Berna, Diego y Pablo".
+            2 Power ups nuevos:
+            El porrin te genera un escudo que te hace inmune x 5 segundos.
+            El café te genera un aura que te da mas velocidad.
+          </p>
+        </div>
+        <div class="col-2" id="juegos__subtitulo" >
+          <h3>#Construct 3</h3>
+        </div>
+      </div>
+      </div>
+    <div class="container" >
+<div class="row justify-content-end" >
+<div class="col-3" >
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active center-align">
+        <img src="imagenes_inicio/POrtada_Game3.png"   class="d-block w-100 h-200" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes_inicio/POrtada_Game3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes_inicio/POrtada_Game3.png" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
   <!-- el bloque de un juego -->
-  <div class="juegos__bloque" id="juegos__bloque__fantasma">  
-    <!-- nombre del juego -->
-        <div class="juegos__bloque__titulo">
-        <h2 class="juegos__titulo" >
-            Tres acordes fantasma pretencioso
-        </h2>
-    </div>
-    <!-- Descripcion del juego -->
-    <div class="juegos__bloque__texto" >
-        <p>
-          Agarra la mayor cantidad de estrellas que puedas sin caerte, o chocarte con los enemigos.
-          Adriel siempre salta solo.
-          Agarra la lata para tener alas!.
-          Agarra el Magnetismo para atraer a las estrellas. (el anillo infinito)
-          Usa las flechas para moverte hacia los costados.
-         
-        </p>
-    </div>
-    <div class="juegos__icono__playstore" >
-      <img id="juegos__bloque__icono__juego" src="imagenes_inicio/adriel fantasma icono 64.png" width="64px" height="64px" alt="">
-      <a href="https://play.google.com/store/apps/details?id=com.yanka.games.tres_acordes_fantasma_pretencioso"><img class="juegos__bloque__icono__playstore" src="imagenes_inicio/playstore.png" width="64px" height="64px" alt="">
-      </a> 
-      
-    </div>
-  <div class="juegos__bloque__portada" >
-   <img class="juegos__portada" src="imagenes_inicio/Imagen 1  Terminada.jpg " width="307" height="337"  alt=""  >
-  </div>  
-  </div>
-  <!-- el bloque de un juego -->
-  <div class="juegos__bloque" id="juegos__bloque__cuadro">  
-    <!-- nombre del juego -->
-        <div class="juegos__bloque__titulo">
-        <h2 class="juegos__titulo" >
-            Tres acordes fantasma pretencioso
-        </h2>
-    </div>
-    <!-- Descripcion del juego -->
-    <div class="juegos__bloque__texto" >
-        <p>
-          Trata de ayudar a Adriel a salir del cuadro, toca la pantalla para no caerte,
-           "Adriel saltara por cada toque", Esquiva los muros de tela.
-          Trata de ayudar a Adriel a salir del cuadro, toca la pantalla para no caerte, "Adriel saltara por cada toque", Esquiva los muros de tela.
-          
-        </p>
-    </div>
-    <div class="juegos__icono__playstore" >
-      <img id="juegos__bloque__icono__juego" src="imagenes_inicio/64x64.png" width="64px" height="64px" alt="">
-      <a href="https://play.google.com/store/apps/details?id=com.yanka.games.tres_acordes_fantasma_pretencioso"><img class="juegos__bloque__icono__playstore" src="imagenes_inicio/playstore.png" width="64px" height="64px" alt="">
-      </a> 
-      
-    </div>
-  <div class="juegos__bloque__portada" >
-   <img class="juegos__portada" src="imagenes_inicio/POrtada_Game3.png " width="237" height="124"  alt=""  >
-  </div>  
-  </div>
+
           
           
  <footer>
@@ -179,6 +155,7 @@
     <!-- <p>juegos argentinos</p> -->
     <!-- <a class="pie__texto" href="://plhttpsay.google.com/store/apps/developer?id=Yanka+Games">Playstore</a>  -->
     </footer>
-          
+          <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
