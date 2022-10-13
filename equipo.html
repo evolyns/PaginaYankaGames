@@ -1,107 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>yanka games</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="imagenes_inicio/favicon.png" />
-  </head>
-  <body class="fondo__bloque">
-    
-    <header class="header">
-      <!-- <div a class="video__bloque" > -->
-        <div class="icono">
-          <img src="imagenes_inicio/icoyanka.png" alt="" width="160" />
-          <!-- el icono tiene que estar a la izquierda arriba dejando un margin de 5 x 5 aprox -->
-        </div>
-        <!-- </div> -->
-        <!-- este mensaje tiene que estar centrado por encima del video 
-          entre el video y el background  -->
-          <!-- <div class="header__grid"> -->
-            <video a class="video__video" width="820" height="350" autoplay muted loop>
-              <!-- este video tiene que estar centrado y ocupar mas de los costados
-                que del alto.  -->
-                <source src="imagenes_inicio/Tres Acordes Games.mp4" />
-              </video>
-              <div class="mensaje__bloque">
-              <h1 class="mensaje__titulo ">
-                Yanka <br />
-                Games
-              </h1>
-            </div>
-            <div class="pagina__bloque__relleno" > "
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>yanka games</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" href="imagenes_inicio/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
 
-              <div class="pagina__bloque"  >
-                <h2>INICIO</h2>
-              </div>
-          <nav>
-            <!-- </div> -->
-              <ul class="lista__bloque">
-                <a class="lista__textos" href="index.html"><li>inicio</li></a>
-                <a class="lista__textos" href="juegos.html"><li>juegos</li></a>
-                <!-- contiene todo el boton menu desplegable por secciones dentro de politicas de privacidad
-                y esta dentro de la barra de navegacion, el boton x default lleva a las politicas y despues esta el
-            desplegable.  -->
-            <div class="politicas__desplegable"> 
-              <a href="politicas.html"> <li class="lista__textos">politicas</li></a>
-              <!-- primer item contenedor y lleva  a ... -->
-                  <div class="politicas__desplegable__opciones">
-                    <a href="politicas.html#politicas__principio">Principio</a>
-                        <a href="politicas.html#politicas__medio">Medio</a>
-                        <a href="politicas.html#politicas__final">Final</a>
-                    </div>
-                    <!-- <label for="privacidad" >  
-                      <select name="privacidad" id="privacidad" class="lista__textos"  >
-                        <option value=""   >
-                          amigos</option>
-                         </select>
-                     </label> -->
-                   </div>
-                   <a class="lista__textos" href="contacto.html"><li>contacto</li></a>
-                   <a class="lista__textos" href="equipo.html"><li>equipo</li></a>
-                   <!-- las listas tienen que estar a la derecha arriba de todo dejando 5 x x aprox    -->
-                 </ul>
-               </div>
-             </nav>
-             </header>
-    <div class="equipo__bloque">     
-      <div class="equipo__subbloque__arriba" >
-        <div class="equipo__imagen" ></div>
-        <div class="equipo__imagen" ></div>
-        
+    <nav class="navbar  navbar-expand-lg  shadow p-0 mb-5 bg-white ">
+      <div class="container-fluid">
+        <img src="imagenes_inicio/icoyanka.png" alt="" width="64" />
+        <a class="navbar-brand me-auto" href="#">Yanka Games</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+            </button>
       </div>
-      <div class="equipo__subbloque__abajo" >
-
-        <div class="equipo__imagen" ></div>
-        <div class="equipo__imagen" ></div>
-        <div class="equipo__imagen" ></div>
-      </div>  
-    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="juegos.html">Juegos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Politicas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="politicas.html#politicas__principio">Principio</a></li>
+              <li><a class="dropdown-item" href="politicas.html#politicas__medio">Medio</a></li>
+              <li><a class="dropdown-item" href="politicas.html#politicas__final">Final</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="equipo.html">Equipo</a>
+          </li>
+        </nav>        
+        
+        
+      </header>
+      
+     
+    <!-- Main  -->
+    <main>
+      <div class="container  ">
+        <div class="row text-center mt-5 mb-5 ">
+          <div class="col-lg-6 p-3">IMAGEN 1
+            <div>Nombre
+              <div>trabajo</div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3 "> IMAGEN 2
+            <div>Nombre
+              <div>trabajo</div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center d-flex justify-content-between mt-5 mb-5 ">
+          
+        <div class="col-sm-2 p-3">IMAGEN 3 
+          <div>Nombre
+            <div>trabajo</div>
+          </div>
+        </div>
+        <div class="col-sm-2 p-3">IMAGEN 4 
+          <div>Nombre
+            <div>trabajo</div>
+          </div>
+        </div>
+        <div class="col-sm-2 p-3">IMAGEN 5 
+          <div>Nombre
+            <div>trabajo</div>
+          </div>
+        </div>
+        <div class="col-sm-2 p-3">IMAGEN 6 
+          <div>Nombre
+            <div>trabajo</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
     <footer>
-  <div class="pie__bloque">
-    <ul class="lista__footer">
-      <li class="lista__footer__items" id="footer1"> <img src="imagenes_inicio/icoyanka.png" width="54" height="54" alt=""> </li>
-      <li class="lista__footer__items" id="footer2">Yanka games</li>
-      <li class="lista__footer__items" id="footer3" ><a href="https://www.facebook.com/profile.php?id=100064145101092"><img src="imagenes_inicio/face.png" width="64"
-          height="64" alt="">
-        </li>
-      </a>
-      <li class="lista__footer__items" id="footer4" ><a href="https://www.instagram.com/yankagames/">
-        <img src="imagenes_inicio/insta.png" width="64" height="64" alt=""> </li>
-      </a>
-
-      <li class="lista__footer__items" id="footer5" ><a href="https://play.google.com/store/apps/developer?id=Yanka+Games">
-        <img src="imagenes_inicio/playstore.png" width="64" height="64" alt="">
-        </li>
-      </a>
-    </ul>
-    <!-- <h2>Yanka Games</h2>  -->
-
-    <!-- <p>juegos argentinos</p> -->
-    <!-- <a class="pie__texto" href="://plhttpsay.google.com/store/apps/developer?id=Yanka+Games">Playstore</a>  -->
+      <div class="container-fluid mt-5 shadow p-3 mb-5 bg-body rounded " id="todo__ajoba" >
+        <div class="row  ">
+          <div class=" col-sm-2 text-center">
+            <img src="imagenes_inicio/icoyanka.png" width="54" height="54" alt="">
+          </div>
+          <div class=" col-sm-7 text-center  ">
+            <h2>Yanka Games</h2>
+          </div>
+          <div class=" col-sm-1 text-center ">
+            <a href="https://www.facebook.com/profile.php?id=100064145101092">
+              <img src="imagenes_inicio/face.png" width="64" height="64" alt="">
+            </a>
+          </div>
+          <div class=" col-sm-1 text-center">
+            <a href="https://www.instagram.com/yankagames/">
+              <img src="imagenes_inicio/insta.png" width="64" height="64" alt="">
+            </a>
+          </div>
+          <div class="  col-sm-1 text-center">
+            <a href="https://play.google.com/store/apps/developer?id=Yanka+Games">
+              <img src="imagenes_inicio/playstore.png" width="64" height="64" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+crossorigin="anonymous"></script>
+  </body>
 </html>

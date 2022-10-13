@@ -1,5 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
-
+@import "complements/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -8,149 +8,15 @@
 @import "./politicas";
 @import "./contacto";
 @import "./equipo";
+@import "complements/bucles";
+
 * {
     margin: 0;
     padding: 0;
   }
 
 
+
   
- 
-  
-  
- 
-  /* .juegos__portada {
-    } */
-  /*CONTACTO*/
-  
-  .form__bloque {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
-    /* background-color: red; */
-    border-radius: 2%;
-    /* gap: 5% 2%; */
-    /* border-color: white; */
-    /* border: 2px solid white; */
-    grid-template-areas:
-      "tema mensaje"
-      "nombre mensaje"
-      "email mensaje"
-      "boton boton";
-    place-content: center;
-    /* align-items: center; */
-    /* margin-top: 5px; */
-    /* text-align: center; */
-    width: auto;
-    
-    height: 300px;
-  
-  }
-  
-  /* .form__nya__bloque {
-      text-align: center;
-    } */
-  .form__tema {
-    grid-area: tema;
-    border-radius: 5px;
-    /* width: auto;
-      height: auto; */
-    padding: 2%;
-    margin: 5px 5px;
-  }
-  
-  .form__nombre {
-    grid-area: nombre;
-    /* text-align: start;  */
-    /* width: auto; */
-    /* height: auto; */
-    border-radius: 5px;
-  
-    padding: 2%;
-    margin: 5px 5px;
-  }
-  
-  /* .form__nya__bloque {
-      text-align: center;
-    } */
-  /* .form__checkbox {
-      text-align: center;
-      color: white;
-    } */
-  /* .form__texto__bloque {
-      text-align: center;
-      padding: 15px;
-    } */
-  .form__email {
-    border-radius: 5px;
-  
-    grid-area: email;
-    /* height: auto;
-      width: auto; */
-    padding: 2%;
-    margin: 5px 5px;
-  }
-  
-  .form__texto {
-    grid-area: mensaje;
-    /* width: auto;
-      height: auto; */
-    padding: 0% 2%;
-    font-size: 20px;
-    text-align: start;
-    border-radius: 5px;
-  
-    margin: 5px 5px;
-  }
-  .form__botones__submit{
-    grid-area: boton;
-    width: 240px;
-    height: auto;
-    pad: 0% 2%;
-    margin-left: 39%;
-    border-radius: 5px;
-    
-  /* margin: 5px 5px; */
-  /* text-align: center; */
-  }
-  .form__botones__submit :hover{
-    
-    color: rgb(255, 0, 0) !important;
-  }
-  
-  /* .form__email__bloque {
-      border: 1px dashed white;
-      text-align: center;
-      margin: 0px 5px;
-    } */
-    /* .form__botones {
-    text-align: center;
-      padding: 5px;
-    }
-    .form__botones__submit {
-      width: 100px;
-      height: 50px;
-      padding: 2%;
-    }
-    .form__botones__reset {
-      width: 100px;
-      height: 50px;
-      padding: 2%;
-    } */
-  
- 
-  /* .pie__bloque{ */
-  
-  /* } */
-  
-  
-  /* aca estan las tipografias */
-  // @font-face {
-  //   font-family:"asd";
-  //   src: url(font/kiwi_days/Kiwi\Days.ttf);
-  //   font-style: normal;
-  // }
-  @font-face {
-    font-family: "Kiwi Maru", serif;
-    src: url();
-  }
+
+
