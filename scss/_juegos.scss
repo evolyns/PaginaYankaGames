@@ -1,9 +1,7 @@
 .carousel-item {
   grid-area: imagen;
 }
-
 /* JUEGOS */
-
 .juegos__titulo {
   color: rgb(0, 0, 0);
   font-size: 24px;
@@ -20,7 +18,6 @@
   grid-area: subtitulo;
   color: rgb(105, 105, 105);
   font-family: sans-serif;
-
 }
 
 .nav-link {
@@ -30,13 +27,9 @@
   text-shadow: 1px 2px 0px #00000054;
 }
 
-
-
 #footer2 {
   // flex: 1 1 auto;
   font-family: $tefuen-title;
-
-
 }
 
 #todo__ajoba {}
