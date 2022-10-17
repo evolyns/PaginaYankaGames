@@ -8452,10 +8452,10 @@ textarea.form-control-lg {
 #index__p {
   color: black;
   font-size: 16px;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Dosis", sans-serif; }
 
 .navbar {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Dosis", sans-serif; }
 
 h2, .h2 {
   font-size: 26px;
@@ -8508,7 +8508,7 @@ h2, .h2 {
 .juegos__titulo {
   color: black;
   font-size: 24px;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Dosis", sans-serif; }
 
 .juegos__bloque__texto {
   width: auto;
@@ -8521,22 +8521,25 @@ h2, .h2 {
   font-family: sans-serif; }
 
 .nav-link {
-  font-family: "Oswald", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 26px;
   color: #000000;
   text-shadow: 1px 2px 0px #00000054; }
 
 #footer2 {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Dosis", sans-serif; }
 
 .nav-item {
-  font-family: "Oswald", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 26px;
   color: #000000;
   text-shadow: 1px 2px 0px #00000054; }
 
 h2, .h2 {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Dosis", sans-serif; }
+
+h3, .h3 {
+  font-family: "Dosis", sans-serif; }
 
 .padding-1 {
   padding: 1rem; }
