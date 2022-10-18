@@ -8449,13 +8449,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+body {
+  background-image: url("/imagenes_inicio/fondo__inicio.jpeg");
+  background-repeat: round; }
+
 #index__p {
   color: black;
-  font-size: 16px;
-  font-family: "Dosis", sans-serif; }
-
-.navbar {
-  font-family: "Dosis", sans-serif; }
+  font-size: 16px; }
 
 h2, .h2 {
   font-size: 26px;
@@ -8507,39 +8507,70 @@ h2, .h2 {
 /* JUEGOS */
 .juegos__titulo {
   color: black;
-  font-size: 24px;
-  font-family: "Dosis", sans-serif; }
+  font-size: 24px; }
 
 .juegos__bloque__texto {
   width: auto;
-  font-size: 20px;
-  font-family: sans-serif; }
+  font-size: 20px; }
 
 .juegos__subtitulo {
   grid-area: subtitulo;
-  color: dimgray;
-  font-family: sans-serif; }
+  color: dimgray; }
+
+.nav-link {
+  font-size: 26px;
+  color: #000000;
+  text-shadow: 1px 2px 0px #00000054; }
+
+.nav-item {
+  font-size: 26px;
+  text-shadow: 1px 2px 0px #ffb4b454; }
 
 .nav-link {
   font-family: "Dosis", sans-serif;
-  font-size: 26px;
-  color: #000000;
-  text-shadow: 1px 2px 0px #00000054; }
+  color: white; }
 
-#footer2 {
+.dropdown-item {
   font-family: "Dosis", sans-serif; }
 
-.nav-item {
-  font-family: "Dosis", sans-serif;
-  font-size: 26px;
-  color: #000000;
-  text-shadow: 1px 2px 0px #00000054; }
+h1, .h1 {
+  font-family: "Dosis", sans-serif; }
 
 h2, .h2 {
   font-family: "Dosis", sans-serif; }
 
 h3, .h3 {
   font-family: "Dosis", sans-serif; }
+
+p {
+  font-family: sans-serif;
+  font-size: 20px; }
+
+.borde__icono__playstore h2, .borde__icono__playstore .h2 {
+  color: white; }
+
+.juegos__bloque__texto {
+  text-decoration: none;
+  color: black;
+  font-size: 16px; }
+
+.navbar {
+  background-color: #000000; }
+
+#juegos__titulo2 {
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 10px;
+  box-shadow: 3px 3px #00000094; }
+
+#juegos__icono__playstore {
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 10px;
+  box-shadow: 3px 3px  #0000006e; }
+
+.borde__icono__playstore {
+  background-color: #000000e2;
+  border-radius: 10px;
+  box-shadow: 3px 3px  #0000006e; }
 
 .padding-1 {
   padding: 1rem; }

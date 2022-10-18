@@ -5,30 +5,26 @@
 .juegos__titulo {
   color: rgb(0, 0, 0);
   font-size: 24px;
-  font-family: $tefuen-title;
+ 
 }
 
 .juegos__bloque__texto {
   width: auto;
   font-size: 20px;
-  font-family: sans-serif;
 }
 
 .juegos__subtitulo {
   grid-area: subtitulo;
   color: rgb(105, 105, 105);
-  font-family: sans-serif;
+  
 }
 
 .nav-link {
-  font-family: $tefuen-title;
   font-size: 26px;
   color: #000000;
   text-shadow: 1px 2px 0px #00000054;
 }
 
 #footer2 {
-  // flex: 1 1 auto;
-  font-family: $tefuen-title;
 }
 
