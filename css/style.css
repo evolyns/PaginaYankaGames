@@ -8449,10 +8449,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-body {
-  background-image: url("/imagenes_inicio/fondo__inicio.jpeg");
-  background-repeat: round; }
-
 #index__p {
   color: black;
   font-size: 16px; }
@@ -8556,8 +8552,8 @@ p {
   color: black;
   font-size: 16px; }
 
-.body {
-  background-image: url("/imagenes_inicio/fondo-inicio.jpeg");
+body {
+  background-image: url("/imagenes_inicio/fondo.jpeg");
   background-repeat: round; }
 
 .navbar {
