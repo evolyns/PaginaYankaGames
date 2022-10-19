@@ -8449,6 +8449,10 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.fondo {
+  background-image: url("/imagenes_inicio/fondo.jpeg");
+  background-repeat: round; }
+
 #index__p {
   color: black;
   font-size: 16px; }
@@ -8551,10 +8555,6 @@ p {
   text-decoration: underline;
   color: black;
   font-size: 16px; }
-
-body {
-  background-image: url("/imagenes_inicio/fondo.jpeg");
-  background-repeat: round; }
 
 .navbar {
   background-color: #000000; }
