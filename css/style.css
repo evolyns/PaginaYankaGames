@@ -8450,9 +8450,8 @@ textarea.form-control-lg {
     display: none !important; } }
 
 .fondo {
-  background-image: url("/imagenes_inicio/face.png");
-  background-repeat: round;
-  background-color: #000000; }
+  background-image: url("/imagenes_inicio/fondo.jpeg");
+  background-repeat: round; }
 
 #index__p {
   color: black;
