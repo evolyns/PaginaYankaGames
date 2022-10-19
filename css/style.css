@@ -8550,7 +8550,7 @@ p {
   color: white; }
 
 .juegos__bloque__texto {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   font-size: 16px; }
 
@@ -8575,6 +8575,11 @@ body {
   background-color: #000000e2;
   border-radius: 10px;
   box-shadow: 3px 3px  #0000006e; }
+
+.recuadro__imagen__equipo {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px; }
 
 .padding-1 {
   padding: 1rem; }
