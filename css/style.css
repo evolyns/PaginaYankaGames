@@ -8451,7 +8451,8 @@ textarea.form-control-lg {
 
 .fondo {
   background: url("/imagenes_inicio/fondo.jpeg");
-  background-repeat: round; }
+  background-repeat: round;
+  width: auto; }
 
 #index__p {
   color: black;
