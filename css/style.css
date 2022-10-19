@@ -8507,7 +8507,9 @@ h2, .h2 {
 /* JUEGOS */
 .juegos__titulo {
   color: black;
-  font-size: 24px; }
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 0px; }
 
 .juegos__bloque__texto {
   width: auto;
@@ -8554,7 +8556,7 @@ p {
   color: black;
   font-size: 16px; }
 
-body {
+.body {
   background-image: url("/imagenes_inicio/fondo-inicio.jpeg");
   background-repeat: round; }
 
