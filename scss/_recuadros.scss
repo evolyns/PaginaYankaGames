@@ -21,15 +21,25 @@ box-shadow: 3px 3px  #0000006e  ;
     border-radius: 10px;
     box-shadow: 3px 3px  #0000006e ;
   }
+//   el fondo del recuadro de las imagenes del equipo
   .recuadro__imagen__equipo{
     background-color: white;
     border: 5px solid white;
 border-radius: 10px;  
 }
+// el fondo de cada una de las politicas
 .recuadro__politicas{
     
     background-color: white;
     border: 5px solid white;
 border-radius: 10px;
+}
+.recuadro__formulario{
+    
+    background-color: white;
+    border: 5px solid white;
+border-radius: 10px;
+width: auto;
+height: auto;
 
 }

@@ -8517,7 +8517,8 @@ h2, .h2 {
   color: #000000; }
 
 h3, .h3 {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif;
+  font-size: 22px; }
 
 h4, .h4 {
   font-family: "Dosis", sans-serif;
@@ -8567,6 +8568,13 @@ p {
   background-color: white;
   border: 5px solid white;
   border-radius: 10px; }
+
+.recuadro__formulario {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: auto;
+  height: auto; }
 
 .padding-1 {
   padding: 1rem; }
