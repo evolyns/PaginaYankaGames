@@ -8457,49 +8457,29 @@ textarea.form-control-lg {
   color: black;
   font-size: 16px; }
 
-h2, .h2 {
-  font-size: 26px;
-  color: #000000; }
-
 .imagen__derecha__imagen {
-  /*contenedor de las imagenes hijo */
   width: 100px;
   border: 1px solid white; }
 
 .imagen__derecha__imagen__1 {
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783); }
-
-.imagen__derecha__imagen__1:hover {
-  width: 230px; }
+  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
 
 .imagen__derecha__imagen__2 {
-  grid-area: imagen2;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783); }
-
-.imagen__derecha__imagen__2:hover {
-  width: 230px; }
+  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
 
 .imagen__derecha__imagen__3 {
-  grid-area: imagen3;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783); }
-
-.imagen__derecha__imagen__3:hover {
-  width: 230px; }
+  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
 
 .imagen__derecha__imagen__4 {
-  grid-area: imagen4;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783); }
-
-.imagen__derecha__imagen__4:hover {
-  width: 230px; }
+  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
 
 .carousel-item {
   grid-area: imagen; }
@@ -8520,17 +8500,10 @@ h2, .h2 {
   color: dimgray; }
 
 .nav-link {
-  font-size: 26px;
-  color: #000000;
-  text-shadow: 1px 2px 0px #00000054; }
-
-.nav-item {
-  font-size: 26px;
-  text-shadow: 1px 2px 0px #ffb4b454; }
-
-.nav-link {
   font-family: "Dosis", sans-serif;
-  color: white; }
+  color: white;
+  font-size: 26px;
+  text-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
 
 .dropdown-item {
   font-family: "Dosis", sans-serif; }
@@ -8539,7 +8512,9 @@ h1, .h1 {
   font-family: "Dosis", sans-serif; }
 
 h2, .h2 {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif;
+  font-size: 26px;
+  color: #000000; }
 
 h3, .h3 {
   font-family: "Dosis", sans-serif; }
@@ -8560,6 +8535,11 @@ p {
   color: black;
   font-size: 16px; }
 
+.listas__politicas {
+  font-family: "Dosis 400 ", sans-serif;
+  font-size: 20px;
+  list-style: lower-roman; }
+
 .navbar {
   background-color: #000000; }
 
@@ -8579,6 +8559,11 @@ p {
   box-shadow: 3px 3px  #0000006e; }
 
 .recuadro__imagen__equipo {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px; }
+
+.recuadro__politicas {
   background-color: white;
   border: 5px solid white;
   border-radius: 10px; }

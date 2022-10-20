@@ -2,6 +2,8 @@
 .nav-link{
     font-family: $tefuen-title;
      color: white;
+     font-size: 26px;
+  text-shadow: $brasom-img;
 }
 // lista dentro de navegador politicas
 .dropdown-item{
@@ -14,6 +16,8 @@ h1{
 // Subtitulos
 h2{
     font-family: $tefuen-title;
+    font-size: 26px;
+  color: #000000;
 }
 // Trabajos
 h3{
@@ -23,7 +27,7 @@ h3{
 h4{
     font-family: $tefuen-title;
     font-size: 20px;
-    
+
 }
 // Parrafos 
 p{
@@ -38,4 +42,10 @@ p{
  text-decoration: underline ;
  color: black;
  font-size: 16px;   
+}
+.listas__politicas{
+    font-family: $tefuen-text;
+    font-size: 20px;
+    list-style: lower-roman;
+
 }

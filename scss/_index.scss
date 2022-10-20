@@ -1,68 +1,36 @@
-
-.fondo{
+.fondo {
   background: url("../imagenes_inicio/fondo.jpeg");
-   background-repeat:round;
-  // width: auto;
-  // height: 200;
-
-  // background-color: #000000;
-
+  background-repeat: round;
+  
 }
-#index__p{
+#index__p {
   color: rgb(0, 0, 0);
   font-size: 16px;
-
-}
-
-h2 {
-  font-size: 26px;
-  color: #000000;
 }
 .imagen__derecha__imagen {
-  /*contenedor de las imagenes hijo */
- width: 100px;
+  width: 100px;
   border: 1px solid white;
 }
-
 .imagen__derecha__imagen__1 {
   width: 200px;
   border-radius: 5px;
 
-   box-shadow: 3px 5px rgba(0, 0, 0, 0.783);
+  box-shadow: $brasom-img;
 }
-
-.imagen__derecha__imagen__1:hover {
-  width: 230px;
-}
-
 .imagen__derecha__imagen__2 {
-  grid-area: imagen2;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783);
-}
-
-.imagen__derecha__imagen__2:hover {
-    width: 230px;
+  box-shadow: $brasom-img;
 }
 
 .imagen__derecha__imagen__3 {
-  grid-area: imagen3;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783);
-}
-
-.imagen__derecha__imagen__3:hover {
-  width: 230px;
+  box-shadow: $brasom-img;
 }
 
 .imagen__derecha__imagen__4 {
-  grid-area: imagen4;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 5px rgba(0, 0, 0, 0.783);
-}
-.imagen__derecha__imagen__4:hover {
-  width: 230px;
+  box-shadow: $brasom-img;
 }
