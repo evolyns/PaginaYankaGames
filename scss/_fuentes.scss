@@ -1,52 +1,109 @@
 // navegador
-.nav-link{
+.nav-link {
     font-family: $tefuen-title;
-     color: white;
-     font-size: 26px;
-  text-shadow: $brasom-img;
+    color: white;
+    font-size: 26px;
+    text-shadow: $brasom-img;
 }
+
 // lista dentro de navegador politicas
-.dropdown-item{
+.dropdown-item {
     font-family: $tefuen-title;
 }
+
 // Titulos
-h1{
+h1 {
     font-family: $tefuen-title;
 }
+
 // Subtitulos
-h2{
+h2 {
     font-family: $tefuen-title;
     font-size: 26px;
-  color: #000000;
+    color: #000000;
 }
+
 // Trabajos
-h3{
+h3 {
     font-family: $tefuen-title;
     font-size: 22px;
 }
+
 // Equipo Ceo 
-h4{
+h4 {
     font-family: $tefuen-title;
     font-size: 20px;
 
 }
+
 // Parrafos 
-p{
+p {
     font-family: sans-serif;
     font-size: 20px;
 }
-.borde__icono__playstore h2{
+
+.borde__icono__playstore h2 {
     color: white;
 }
 
-.juegos__bloque__texto{
- text-decoration: underline ;
- color: black;
- font-size: 16px;   
-}
-.listas__politicas{
-    font-family: $tefuen-text;
-    font-size: 20px;
-    list-style: lower-roman;
+.juegos__bloque__texto {
+    text {
+        decoration: underline;
+        size: 16px;
 
+    }
+
+    color: black;
 }
+
+.listas__politicas {
+    padding: 5px;
+
+    h1 {
+        margin: {
+            bottom: 3px;
+            top: 10px;
+        }
+
+    }
+
+    text-align: center;
+
+    h2 {
+        margin {
+            bottom: 2px;
+            top: 5px;
+        }
+
+        text-align: center;
+    }
+
+    p {
+        text-align: start;
+        color: black;
+        padding: 5px;
+        margin-bottom: 5px; 
+             }
+    }
+
+    ul {
+
+        li {
+            list-style:square;
+            text-align: start;
+            font-size: 20px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        strong {
+            color: $lorco-href
+        }
+
+        em {
+            color: $lorco-href;
+            font-size: 18px;
+        }
+    }

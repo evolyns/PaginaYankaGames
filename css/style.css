@@ -8532,14 +8532,40 @@ p {
   color: white; }
 
 .juegos__bloque__texto {
-  text-decoration: underline;
-  color: black;
-  font-size: 16px; }
+  color: black; }
+  .juegos__bloque__texto text {
+    decoration: underline;
+    size: 16px; }
 
 .listas__politicas {
-  font-family: "Dosis 400 ", sans-serif;
-  font-size: 20px;
-  list-style: lower-roman; }
+  padding: 5px;
+  text-align: center; }
+  .listas__politicas h1, .listas__politicas .h1 {
+    margin-bottom: 3px;
+    margin-top: 10px; }
+  .listas__politicas h2, .listas__politicas .h2 {
+    text-align: center; }
+    .listas__politicas h2 margin, .listas__politicas .h2 margin {
+      bottom: 2px;
+      top: 5px; }
+  .listas__politicas p {
+    text-align: start;
+    color: black;
+    padding: 5px;
+    margin-bottom: 5px; }
+
+ul li {
+  list-style: square;
+  text-align: start;
+  font-size: 20px; }
+
+a {
+  text-decoration: none; }
+  a strong {
+    color: rgba(6, 103, 120, 0.89); }
+  a em {
+    color: rgba(6, 103, 120, 0.89);
+    font-size: 18px; }
 
 .navbar {
   background-color: #000000; }
@@ -8565,6 +8591,7 @@ p {
   border-radius: 10px; }
 
 .recuadro__politicas {
+  margin-bottom: 15px;
   background-color: white;
   border: 5px solid white;
   border-radius: 10px; }
@@ -8572,9 +8599,7 @@ p {
 .recuadro__formulario {
   background-color: white;
   border: 5px solid white;
-  border-radius: 10px;
-  width: auto;
-  height: auto; }
+  border-radius: 10px; }
 
 .padding-1 {
   padding: 1rem; }
