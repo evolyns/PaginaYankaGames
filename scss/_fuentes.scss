@@ -1,9 +1,18 @@
 // navegador
-.nav-link {
-    font-family: $tefuen-title;
-    color: white;
-    font-size: 26px;
-    text-shadow: $brasom-img;
+.navbar {
+    ul{
+        li{
+            a{
+                font-family: $tefuen-title;
+                font-size: 26px;
+                text-shadow: $brasom-img;
+                color: white;
+                list-style-type:  none;
+
+            }
+        }
+        
+    }
 }
 
 // lista dentro de navegador politicas
@@ -84,26 +93,26 @@ p {
         padding: 5px;
         margin-bottom: 5px; 
              }
-    }
+             
+             ul {
+                 
+                 li {
+              list-style:square;
+                     text-align: start;
+                     font-size: 20px;
+                    }
+                }
+                
+                a {
+                    text-decoration: none;
 
-    ul {
-
-        li {
-            list-style:square;
-            text-align: start;
-            font-size: 20px;
-        }
-    }
-
-    a {
-        text-decoration: none;
-
-        strong {
-            color: $lorco-href
-        }
-
-        em {
-            color: $lorco-href;
-            font-size: 18px;
-        }
-    }
+                    strong {
+                        color: $lorco-href
+                    }
+                    
+                    em {
+                        color: $lorco-href;
+                        font-size: 18px;
+                    }
+                }
+            }

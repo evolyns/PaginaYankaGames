@@ -8499,11 +8499,12 @@ textarea.form-control-lg {
   grid-area: subtitulo;
   color: dimgray; }
 
-.nav-link {
+.navbar ul li a {
   font-family: "Dosis", sans-serif;
-  color: white;
   font-size: 26px;
-  text-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
+  text-shadow: 3px 4px rgba(51, 51, 51, 0.666);
+  color: white;
+  list-style-type: none; }
 
 .dropdown-item {
   font-family: "Dosis", sans-serif; }
@@ -8553,19 +8554,17 @@ p {
     color: black;
     padding: 5px;
     margin-bottom: 5px; }
-
-ul li {
-  list-style: square;
-  text-align: start;
-  font-size: 20px; }
-
-a {
-  text-decoration: none; }
-  a strong {
-    color: rgba(6, 103, 120, 0.89); }
-  a em {
-    color: rgba(6, 103, 120, 0.89);
-    font-size: 18px; }
+  .listas__politicas ul li {
+    list-style: square;
+    text-align: start;
+    font-size: 20px; }
+  .listas__politicas a {
+    text-decoration: none; }
+    .listas__politicas a strong {
+      color: rgba(6, 103, 120, 0.89); }
+    .listas__politicas a em {
+      color: rgba(6, 103, 120, 0.89);
+      font-size: 18px; }
 
 .navbar {
   background-color: #000000; }
