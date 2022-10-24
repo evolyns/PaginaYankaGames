@@ -8464,22 +8464,22 @@ textarea.form-control-lg {
 .imagen__derecha__imagen__1 {
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 .imagen__derecha__imagen__2 {
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 .imagen__derecha__imagen__3 {
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 .imagen__derecha__imagen__4 {
   width: 200px;
   border-radius: 5px;
-  box-shadow: 3px 4px rgba(51, 51, 51, 0.666); }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 .carousel-item {
   grid-area: imagen; }
@@ -8502,12 +8502,14 @@ textarea.form-control-lg {
 .navbar ul li a {
   font-family: "Dosis", sans-serif;
   font-size: 26px;
-  text-shadow: 3px 4px rgba(51, 51, 51, 0.666);
+  text-shadow: 3px 3px rgba(51, 51, 51, 0.666);
   color: white;
   list-style-type: none; }
 
-.dropdown-item {
-  font-family: "Dosis", sans-serif; }
+.navbar .dropdown-menu li a {
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px rgba(51, 51, 51, 0.666); }
 
 h1, .h1 {
   font-family: "Dosis", sans-serif; }

@@ -11,14 +11,24 @@
 
             }
         }
+    }
+    .dropdown-menu {
+        
+            li{
+                a{
+                    text-align: center;
+                   color: black;
+                    text-shadow: 2px 2px rgba(51, 51, 51, 0.666);
+    
+                }
+            }
+        
         
     }
 }
 
+
 // lista dentro de navegador politicas
-.dropdown-item {
-    font-family: $tefuen-title;
-}
 
 // Titulos
 h1 {
