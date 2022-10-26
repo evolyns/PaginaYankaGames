@@ -4,6 +4,7 @@
   "description": "<!DOCTYPE html>\r <html lang=\"es\">\r   <head>\r     <meta charset=\"UTF-8\" />\r     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r     <title>yanka games</title>\r     <link rel=\"stylesheet\" href=\"/styles.css\" />\r     <link rel=\"icon\" href=\"/Imagenes_inicio/favicon.png\" />\r   </head>\r   <body class=\"fondo__bloque\">",
   "main": "index.js",
   "scripts": {
+    
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/evolyns/PaginaYankaGames#readme",
   "devDependencies": {
+    "mod": "^0.0.0",
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
   },

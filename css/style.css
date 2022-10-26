@@ -8535,10 +8535,9 @@ p {
   color: white; }
 
 .juegos__bloque__texto {
+  text-decoration: underline;
+  font-size: 16px;
   color: black; }
-  .juegos__bloque__texto text {
-    decoration: underline;
-    size: 16px; }
 
 .listas__politicas {
   padding: 5px;
