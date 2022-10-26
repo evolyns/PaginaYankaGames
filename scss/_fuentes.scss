@@ -85,8 +85,8 @@ p {
         }
 
     }
-
     text-align: center;
+
 
     h2 {
         margin {
@@ -124,5 +124,18 @@ p {
                         color: $lorco-href;
                         font-size: 18px;
                     }
+                }
+            }
+
+            .recuadro__formulario{
+                h2{
+                    color: white;
+                    margin-top: 10px;
+                }
+                h3{
+                    color: white;
+                }
+                h4{
+                    color: #008dc1;
                 }
             }

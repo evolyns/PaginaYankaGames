@@ -8568,6 +8568,16 @@ p {
       color: rgba(6, 103, 120, 0.89);
       font-size: 18px; }
 
+.recuadro__formulario h2, .recuadro__formulario .h2 {
+  color: white;
+  margin-top: 10px; }
+
+.recuadro__formulario h3, .recuadro__formulario .h3 {
+  color: white; }
+
+.recuadro__formulario h4, .recuadro__formulario .h4 {
+  color: #008dc1; }
+
 .navbar {
   background-color: #000000; }
 
@@ -8579,12 +8589,21 @@ p {
 #juegos__icono__playstore {
   background-color: rgba(255, 255, 255, 0.801);
   border-radius: 10px;
-  box-shadow: 3px 3px  #0000006e; }
+  box-shadow: 3px 3px #0000006e; }
 
 .borde__icono__playstore {
   background-color: #000000e2;
   border-radius: 10px;
-  box-shadow: 3px 3px  #0000006e; }
+  box-shadow: 3px 3px #0000006e; }
+  .borde__icono__playstore a {
+    text-decoration: none; }
+
+.borde__icono__playstore :hover {
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: 3px 3px #0000006e; }
+  .borde__icono__playstore :hover img {
+    box-shadow: none; }
 
 .recuadro__imagen__equipo {
   background-color: white;
@@ -8598,8 +8617,7 @@ p {
   border-radius: 10px; }
 
 .recuadro__formulario {
-  background-color: white;
-  border: 5px solid white;
+  background-color: #000000ef;
   border-radius: 10px; }
 
 .padding-1 {
@@ -8631,6 +8649,12 @@ p {
 
 .padding-10 {
   padding: 10rem; }
+
+@keyframes playstore {
+  0% {
+    background-color: #000000e2; }
+  100% {
+    background-color: green; } }
 
 * {
   margin: 0;
