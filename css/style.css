@@ -8453,36 +8453,14 @@ textarea.form-control-lg {
   background: url("../imagenes_inicio/fondo.jpeg");
   background-repeat: round; }
 
-#index__p {
-  color: black;
-  font-size: 16px; }
-
 .imagen__derecha__imagen {
   width: 100px;
   border: 1px solid white; }
 
-.imagen__derecha__imagen__1 {
+.imagenes__principal {
   width: 200px;
   border-radius: 5px;
   box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
-
-.imagen__derecha__imagen__2 {
-  width: 200px;
-  border-radius: 5px;
-  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
-
-.imagen__derecha__imagen__3 {
-  width: 200px;
-  border-radius: 5px;
-  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
-
-.imagen__derecha__imagen__4 {
-  width: 200px;
-  border-radius: 5px;
-  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
-
-.carousel-item {
-  grid-area: imagen; }
 
 /* JUEGOS */
 .juegos__titulo {
@@ -8496,7 +8474,6 @@ textarea.form-control-lg {
   font-size: 20px; }
 
 .juegos__subtitulo {
-  grid-area: subtitulo;
   color: dimgray; }
 
 .navbar ul li a {
@@ -8512,7 +8489,8 @@ textarea.form-control-lg {
   text-shadow: 2px 2px rgba(51, 51, 51, 0.666); }
 
 h1, .h1 {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif;
+  color: white; }
 
 h2, .h2 {
   font-family: "Dosis", sans-serif;
@@ -8580,29 +8558,35 @@ p {
 .navbar {
   background-color: #000000; }
 
+.recuadro__h1 {
+  width: max-content;
+  border-radius: 7px; }
+
 #juegos__titulo2 {
   background-color: rgba(255, 255, 255, 0.801);
   border-radius: 10px;
-  box-shadow: 3px 3px #00000094; }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 #juegos__icono__playstore {
   background-color: rgba(255, 255, 255, 0.801);
   border-radius: 10px;
-  box-shadow: 3px 3px #0000006e; }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 .borde__icono__playstore {
   background-color: #000000e2;
   border-radius: 10px;
-  box-shadow: 3px 3px #0000006e; }
-  .borde__icono__playstore a {
-    text-decoration: none; }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
 
 .borde__icono__playstore :hover {
   background-color: green;
   border-radius: 10px;
-  box-shadow: 3px 3px #0000006e; }
+  box-shadow: 3px 3px rgba(51, 51, 51, 0.666); }
   .borde__icono__playstore :hover img {
     box-shadow: none; }
+
+.recuadro__titulo__equipo {
+  width: 720px;
+  border-radius: 5px; }
 
 .recuadro__imagen__equipo {
   background-color: white;
@@ -8619,41 +8603,81 @@ p {
   background-color: #000000ef;
   border-radius: 10px; }
 
-.padding-1 {
-  padding: 1rem; }
+.boton__cnt {
+  width: 150px; }
 
-.padding-2 {
-  padding: 2rem; }
+a {
+  text-decoration: none; }
 
-.padding-3 {
-  padding: 3rem; }
+@media (max-width: 425px) {
+  .recuadro__h1 {
+    animation-name: entra__recuadroh1;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in-out; }
+  .recuadro__titulo__equipo {
+    animation-name: entra__recuadroh1;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in-out; } }
 
-.padding-4 {
-  padding: 4rem; }
+@keyframes entra__recuadroh1 {
+  from {
+    transform: translate(-300px, 0px); }
+  to {
+    transform: translate(0px, 0px); } }
 
-.padding-5 {
-  padding: 5rem; }
+.imagen__principal {
+  animation-name: imagen__principal;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 156px;
+  height: 156px; }
 
-.padding-6 {
-  padding: 6rem; }
-
-.padding-7 {
-  padding: 7rem; }
-
-.padding-8 {
-  padding: 8rem; }
-
-.padding-9 {
-  padding: 9rem; }
-
-.padding-10 {
-  padding: 10rem; }
-
-@keyframes playstore {
+@keyframes imagen__principal {
   0% {
-    background-color: #000000e2; }
+    transform: translate(0px); }
+  50% {
+    transform: translate(-10px); }
   100% {
-    background-color: green; } }
+    transform: translate(0px); } }
+
+@media (min-width: 768px) {
+  #item1 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial; }
+  #item2 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial; }
+  #item3 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial; }
+  #item4 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial; }
+  @keyframes entra__imagen {
+    0% {
+      transform: translate(-300px, 0px); }
+    100% {
+      transform: translate(0px, 0px); } }
+  .imagen__principal {
+    animation-name: imagen__principal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 256px;
+    height: 256px; }
+  @keyframes imagen__principal {
+    0% {
+      transform: translate(0px, 0px); }
+    50% {
+      transform: translate(20px, 0px); }
+    100% {
+      transform: translate(0px, 0px); } } }
 
 * {
   margin: 0;

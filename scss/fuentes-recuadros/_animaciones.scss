@@ -1,0 +1,95 @@
+// ANIMACIONES  MOBILE
+@media (max-width: 425px) {
+  .recuadro__h1 {
+    animation-name: entra__recuadroh1;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in-out;
+  }
+  .recuadro__titulo__equipo {
+    animation-name: entra__recuadroh1;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in-out;
+  }
+}
+@keyframes entra__recuadroh1 {
+  from {
+    transform: translate(-300px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+.imagen__principal {
+  animation-name: imagen__principal;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 156px;
+  height: 156px;
+}
+@keyframes imagen__principal {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-10px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+// ANIMACIONES PARA tablet -PC
+@media (min-width: 768px) {
+  // ENTRAN LAS IMAGENES DEL JUEGO EN PANTALLA
+  #item1 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+  }
+  #item2 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+  }
+  #item3 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+  }
+  #item4 {
+    animation-name: entra__imagen;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+  }
+  @keyframes entra__imagen {
+    0% {
+      transform: translate(-300px, 0px);
+    }
+
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  // PRIMERA ANIMACION PRIMERA IMAGEN
+  .imagen__principal {
+    animation-name: imagen__principal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 256px;
+    height:256px;
+  }
+  @keyframes imagen__principal {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(20px, 0px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+}
